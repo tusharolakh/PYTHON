@@ -6,7 +6,7 @@ if a == b and b != c:
     print("Isosceles")
 if a != b and b == c:
     print("Isosceles")
-if a != b and b != c and a == c:
+if a != b and b != c and a== c:
     print("Isosceles")
 if a != b and b != c and a != c:
     print("Scalene")
