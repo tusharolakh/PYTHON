@@ -1,0 +1,13 @@
+Enter any character at run time & find out this
+character is Capital Letter or Small letter or Number
+or Special Symbol? using only if statement?
+character = input("Enter a character: ")
+
+if 'A' <= character <= 'Z':
+    print("Capital Letter")
+if 'a' <= character <= 'z':
+    print("Small Letter")
+if '0' <= character <= '9':
+    print("Number")
+if not ('A' <= character <= 'Z' or 'a' <= character <= 'z' or '0' <= character <= '9'):
+    print("Special Symbol")
