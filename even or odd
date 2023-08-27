@@ -1,0 +1,7 @@
+'''Enter any no. at run time & find out this no. is 
+even or odd no.? using if...else statement?'''
+num = int(input("enter the number: "))
+if(num%2 == 0):
+    print("even")
+else:
+    print("odd")
