@@ -1,3 +1,6 @@
+'''Enter any 3 sides of triangle at run time & find out
+this triangle is Scalene or Equilateral or Isoselese?
+using only if statement?'''
 a, b, c = map(int, input("Enter the three sides of the triangle: ").split())
 
 if a == b and b == c:
