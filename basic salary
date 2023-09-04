@@ -1,0 +1,25 @@
+'''Enter any basic salary of an employee at run time,
+& find out da, hra, ta & net salary?
+
+if(basic salary>25000) then
+da=10% of basic salary
+hra=20% of basic salary
+ta=5% of basic salary
+else:
+da=5% of basic salary
+hra=10% of basic salary
+ta=2% of basic salary
+then find out Net Salary?'''
+bsalary = int(input("ENTER BASIC SALARY : "))
+if(bsalary > 25000):
+    da = 0.1 * bsalary
+    hra = 0.2 *bsalary
+    ta = 0.05 *bsalary
+    netsalary = da + hra + ta + bsalary
+else:
+    da = 0.05 * bsalary
+    hra = 0.1 *bsalary
+    ta = 0.02 *bsalary
+    netsalary = da + hra + ta + bsalary
+print(netsalary)
+    
