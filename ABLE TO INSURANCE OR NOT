@@ -1,0 +1,21 @@
+''''Insurance Co.
+       1. Driver Married
+       2. Driver Unmarried, Male, Age>30
+       3. Driver Unmarried, Female, Age>25'''
+ms = input("CUSTOMER IS MARRIED(M/U)")
+if(ms == 'M'):
+    print("able to insurance")
+else:
+    gender =input("ENTER GENDER (MALE/FEMALE)")
+    age = int(input("ENTER AGE"))
+    if(gender == 'MALE'):
+        if(age>30):
+            print("ABLE TO INSURANCE")
+        else:
+             print(" not able to insurance")
+    else:
+        if(age>25):
+            print("able to insurance")
+        else:
+             print(" not able to insurance")
+            
