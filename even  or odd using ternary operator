@@ -1,0 +1,5 @@
+'''Enter any no. at run time & find out this no. is 
+even or odd no.? using only ternary operator?'''
+num = int(input("ENTER THE NUMBER: "))
+result = (num,"NUMBER IS EVEN")if(num%2==0) else(num,"NUMBER IS ODD")
+print(result)
