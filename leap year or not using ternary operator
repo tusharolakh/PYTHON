@@ -1,0 +1,5 @@
+'''Enter any year at run time & find out this year is 
+Leap Year or not Leap Year .? using only ternary operator?'''
+year = int(input("ENTER THE YEAR: "))
+is_leap_year = "LEAP YEAR" if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0) else "NOT LEAP YEAR"
+print(year, "IS A", is_leap_year)
