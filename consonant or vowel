@@ -1,0 +1,17 @@
+'''Enter any alphabet at run time & find out
+this alphabet is Vowel or Consonant ? using
+if....elif....else statement?'''
+char=input("enter any character: ")
+if(char == 'a'or char == 'A'):
+    print("VOWEL")
+elif(char == 'e'or char == 'E'):
+     print("VOWEL")
+elif(char == 'i'or char == 'I'):
+     print("VOWEL")
+elif(char == 'o'or char == 'O'):
+     print("VOWEL")
+elif(char == 'u'or char == 'U'):
+     print("VOWEL")
+else:
+    print("CONSONANT")
+
