@@ -1,0 +1,12 @@
+'''Enter any no. at run time & display table of this no.?
+b/w 1 to 10? using while loop? in this format:-
+2*1=2
+2*2=4
+--------
+2*10=20'''
+num = int(input("ENTER NUMBER : "))
+i = 1
+while(i <=10):
+    ans = num * i
+    i+=1
+    print(f"{num} * {i} = {ans}")
