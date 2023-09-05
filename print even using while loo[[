@@ -1,0 +1,6 @@
+'''Display all even nos. b/w 1 to 100 in horizontally?using 
+only while loop ? without using any conditional statement?'''
+i = 2
+while(i <=100):
+    print(i, end=' ')
+    i+=2
